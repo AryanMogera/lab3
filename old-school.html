@@ -24,9 +24,9 @@ Description : Understanding Old-School HTML Layouts.
 
         .news-item { padding: 10px; }
         
-        .large.news-item  { width: 100%; }
-        .medium.news-item { width: 70%; }
-        .small.news-item{ width:30%; }
+        .large { width: 100%; }
+        .medium { width: 70%; }
+        .small { width:30%; }
         
     </style>
 </head>
@@ -64,9 +64,15 @@ Description : Understanding Old-School HTML Layouts.
                         </article>
                     </td>
                 </tr>
+
+                </table>
+                 </td>
+                </tr>
+
+                <table cellpadding="0" cellspacing="0">
                 <tr>
                     
-                    <td class="small news-item" colspan="1" >
+                    <td class="small news-item" colspan="2" >
                         <!-- Small news item -->
 
                         <header>
@@ -87,7 +93,7 @@ Description : Understanding Old-School HTML Layouts.
                         </article>
 
                     </td>
-                    <td class="medium news-item" colspan="3">
+                    <td class="medium news-item" >
                         <!-- Medium news item -->
                         <header>
                             <h1>Sheharyar Takes a Historic Spacewalk Near the ISS</h1>
